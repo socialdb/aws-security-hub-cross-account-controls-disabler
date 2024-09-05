@@ -116,7 +116,7 @@ Resources:
         Fn::GetAtt:
         - LambdaExecutionRole
         - Arn
-      Runtime: python3.8
+      Runtime: python3.11
       Timeout: 300
 
   GetMembers:
@@ -129,7 +129,7 @@ Resources:
         Fn::GetAtt:
         - LambdaExecutionRole
         - Arn
-      Runtime: python3.8
+      Runtime: python3.11
       Timeout: 300
       Environment:
         Variables:
@@ -146,7 +146,7 @@ Resources:
         Fn::GetAtt:
         - LambdaExecutionRole
         - Arn
-      Runtime: python3.8
+      Runtime: python3.11
       Timeout: 900
       Environment:
         Variables:
